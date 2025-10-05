@@ -4,7 +4,7 @@ public class Program23 {
 
     public int multifactorial(int number, int steps)
     {
-        
+        return 0;
     }
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
@@ -13,5 +13,6 @@ public class Program23 {
         in = x.nextInt();
         System.out.print("Enter number of steps to calculate multifactorial: ");
         n = x.nextInt();
+        x.close();
     }
 }
