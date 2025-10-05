@@ -40,6 +40,7 @@ public class SimpleInheritance { //Bank
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.println("Enter name");
+        String name2 = x.next();
 
     }
 }
