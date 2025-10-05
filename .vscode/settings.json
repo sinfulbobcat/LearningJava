@@ -3,7 +3,8 @@
         "switch_case",
         "if-else",
         "for_loop",
-        "Class12Project"
+        "Class12Project",
+        "Inheritance"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
