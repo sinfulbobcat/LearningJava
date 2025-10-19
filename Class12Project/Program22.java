@@ -12,6 +12,7 @@ public class Program22 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string to reverse: ");
         String input = sc.nextLine();
+        sc.close();
         String reversed = reverse(input);
         System.out.println("Reversed string: " + reversed);
     }

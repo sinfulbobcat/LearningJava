@@ -12,7 +12,9 @@ public class Program21 {
         Scanner x = new Scanner(System.in);
         System.out.println("Enter a String to be printed out in a pattern");
         String in = x.nextLine();
+        x.close();
         System.out.println("The final pattern is \n");
         recurringPrint(in, in.length(), 0);
+        
     }
 }

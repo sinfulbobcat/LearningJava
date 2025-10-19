@@ -4,10 +4,13 @@
         "if-else",
         "for_loop",
         "Class12Project",
-        "Inheritance"
+        "Inheritance",
+        "DataStructure"
     ],
     "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+    "java.project.referencedLibraries": [],
+    "java.format.settings.url": ".vscode/java-formatter.xml",
+    "[java]": {
+        "editor.insertSpaces": false
+    }
 }
