@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Piglatin {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         String word;
@@ -10,6 +11,7 @@ public class Piglatin {
         int c=word.indexOf('O');
         word = word.substring(c)+word.substring(0,c)+"AY";
         System.out.print(word);
+        x.close();
 
     }
 }

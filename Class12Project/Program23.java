@@ -6,6 +6,7 @@ public class Program23 {
     {
         return 0;
     }
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         int in, n;

@@ -14,14 +14,15 @@ public class linkedlist {
 		nptr = new Node(val, null);
 		boolean ins = false;
 		if(start == null)
-			start = nptr;
-		else if(val <= start.getdata())
-		{
-			nptr.setlink(start);
-			start = nptr;
-		}
-		else
-		{
+		{start = nptr;
+			return;}
+			if(val <= start.getdata())
+			{
+				nptr.setlink(start);
+				start = nptr;
+				return;
+			}
+			
 			save = start;
 			ptr = start.getlink();
 			while(ptr != null)
@@ -37,26 +38,29 @@ public class linkedlist {
 					save = ptr;
 					ptr = ptr.getlink();
 				}
-
+				
 			}
 			if (ins == false)
 			{
 				save.setlink(nptr);
 			}
+			
 		}
-	}
-
-	public void display()
-	{
-		Node ptr = start;
-		System.out.print(start.getdata()+"-->");
-		ptr = start.getlink();
-		while(ptr.getlink() != null)
+		
+		
+		
+		public void display()
 		{
-			System.out.print(ptr.getdata()+"-->");
-			ptr = ptr.getlink();
+			Node ptr = start;
+			System.out.print(start.getdata()+"-->");
+			ptr = start.getlink();
+			while(ptr.getlink() != null)
+			{
+				System.out.print(ptr.getdata()+"-->");
+				ptr = ptr.getlink();
+			}
+			System.out.print(ptr.getdata() + "!!!!");
+			System.out.println();
 		}
-		System.out.print(ptr.getdata() + "!!!!");
-		System.out.println();
 	}
-}
+	
