@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class linkedListTest {
 	protected static linkedlist S;
 	public static void main(String[] args) {
-		int num;
+		// int num;
 		S = new linkedlist();
 		Scanner x = new Scanner(System.in);
 		for (int i = 0; i < 5; ++i) {
